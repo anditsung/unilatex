@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include unilatex *.css
+recursive-include unilatex *.csv
+recursive-include unilatex *.html
+recursive-include unilatex *.ico
+recursive-include unilatex *.js
+recursive-include unilatex *.json
+recursive-include unilatex *.md
+recursive-include unilatex *.png
+recursive-include unilatex *.py
+recursive-include unilatex *.svg
+recursive-include unilatex *.txt
+recursive-exclude unilatex *.pyc
