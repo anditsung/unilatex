@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "unilatex"
-app_title = "Master"
+app_title = "Unilatex"
 app_publisher = "unilatex"
 app_description = "unilatex"
 app_icon = "octicon octicon-file-directory"
