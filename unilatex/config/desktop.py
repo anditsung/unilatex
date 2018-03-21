@@ -5,13 +5,6 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Unilatex",
-			"color": "grey",
-			"icon": "octicon octicon-file-directory",
-			"type": "module",
-			"label": _("Unilatex")
-		},
-		{
 			"module_name": "Master",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
