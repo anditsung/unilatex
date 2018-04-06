@@ -16,6 +16,6 @@ unilatex.egg-info/top_level.txt
 unilatex/config/__init__.py
 unilatex/config/desktop.py
 unilatex/config/docs.py
+unilatex/master/__init__.py
 unilatex/templates/__init__.py
 unilatex/templates/pages/__init__.py
-unilatex/unilatex/__init__.py

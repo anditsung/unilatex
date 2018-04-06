@@ -1,0 +1,30 @@
+{
+ "add_total_row": 0, 
+ "apply_user_permissions": 1, 
+ "creation": "2018-04-02 15:10:50.112364", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2018-04-02 16:14:32.853902", 
+ "modified_by": "Administrator", 
+ "module": "Sparepart", 
+ "name": "Semua Stok", 
+ "owner": "Administrator", 
+ "query": "SELECT\n  `tabStok`.kode_stok AS \"Kode Stok:Link/Stok:100\",\n  `tabStok`.kode_barang as \"Kode Barang:data:80\",\n  `tabStok`.nama_barang AS \"Nama Barang:data:200\",\n  `tabStok`.gudang as \"Gudang:data:100\",\n  `tabGudang`.nama AS \"Nama Gudang:data:150\",\n  `tabStok`.perusahaan AS \"Perusahaan:data:200\",\n  `tabStok`.jumlah AS \"Jumlah:data:100\"\nFROM\n  `tabStok`\nLEFT JOIN\n  `tabGudang`\nON\n  `tabStok`.gudang = `tabGudang`.kode\nGROUP BY\n  `tabStok`.perusahaan,\n  `tabStok`.gudang,\n  `tabStok`.kode_barang\nORDER BY\n  `tabStok`.kode_barang,\n  `tabStok`.perusahaan,\n  `tabStok`.gudang", 
+ "ref_doctype": "Stok", 
+ "report_name": "Semua Stok", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "Sparepart Supervisor"
+  }, 
+  {
+   "role": "Sparepart User"
+  }, 
+  {
+   "role": "System Manager"
+  }
+ ]
+}

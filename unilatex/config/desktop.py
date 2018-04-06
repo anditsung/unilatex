@@ -24,5 +24,12 @@ def get_data():
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
 			"label": _("Sparepart")
+		},
+		{
+			"module_name": "MIS",
+			"color": "grey",
+			"icon": "octicon octicon-file-directory",
+			"type": "module",
+			"label": _("MIS")
 		}
 	]

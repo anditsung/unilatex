@@ -1,0 +1,22 @@
+{
+ "align_labels_right": 1, 
+ "creation": "2018-04-02 16:16:10.812963", 
+ "custom_format": 0, 
+ "disabled": 0, 
+ "doc_type": "Transaksi", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Default", 
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>Transaksi<br><small>{{ doc.transaksi }}</small>\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"perusahaan\", \"label\": \"Perusahaan\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"transaksi\", \"label\": \"Transaksi\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"karyawan\", \"label\": \"Karyawan\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"est\", \"label\": \"EST\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"nama\", \"label\": \"Nama\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"visible_columns\": [{\"print_hide\": 0, \"fieldname\": \"barang\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"stok_gudang\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"gudang_dari\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"nama\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"sisa_stok\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"jumlah\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"gudang_tujuan\", \"print_width\": \"\"}, {\"print_hide\": 0, \"fieldname\": \"keterangan\", \"print_width\": \"\"}], \"print_hide\": 0, \"fieldname\": \"barang_table\", \"label\": \"Barang\"}]", 
+ "idx": 0, 
+ "line_breaks": 1, 
+ "modified": "2018-04-02 16:23:15.911976", 
+ "modified_by": "Administrator", 
+ "module": "Sparepart", 
+ "name": "Transaksi", 
+ "owner": "Administrator", 
+ "print_format_builder": 0, 
+ "print_format_type": "Client", 
+ "show_section_headings": 1, 
+ "standard": "Yes"
+}

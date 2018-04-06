@@ -4,5 +4,9 @@
 frappe.ui.form.on('Bagian', {
 	refresh: function(frm) {
 
+	},
+	nama: function(frm) {
+		var nama = frm.doc.nama.trim().toUpperCase()
+		frm.set_value("nama", nama)
 	}
 });
